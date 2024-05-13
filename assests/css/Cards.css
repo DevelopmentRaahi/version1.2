@@ -168,9 +168,11 @@ margin-top: 1.2rem;
 .firstsix{
   font-size: 0.9rem;
 }
+
 .list-group-flush li a{
   text-decoration: none;
   color: black;
+  font-family: "Lato", sans-serif;
 }
 .list-group-flush li:hover{
    background-color: #a7a7a79c;
@@ -260,11 +262,25 @@ display: none;
 /* navcss */
 .main-center{
   position: relative;
-  margin: auto;
+  
 }
 .main-center a{
- font-size: 1.1rem;
- margin-left: 10px;
+ font-size: 1rem;
+ margin-left: 0.3rem;
+ font-weight: 500;
+}
+.dropdown-menu{
+  width: auto;
+}
+
+.dropdown-menu a{
+  font-size: 0.8rem !important;
+  line-height:1.6rem;
+
+}
+.dropdown-menu a:hover{
+ color: rgb(255, 152, 56);
+  
 }
 /* navcss */
 
@@ -532,7 +548,24 @@ color: #1d1d1d;
 button{
   transition: all 0.6s !important;
 }
-.navbtn:hover, button:hover{
+.navbtn:hover{
   transform: translateY(-4px);
   transition: all 0.6s;
+}
+.subscriber_btn p {
+  color: #ffffff;
+}
+.input_footer{
+  display: block;
+  padding: 0.3rem;
+  width: 100%;
+  margin-bottom: 0.8rem;
+  outline: none;
+}
+.footer_space ul{
+  padding: 0;
+  margin-top: 1rem;
+}
+.footer_space ul p{
+  font-size: 1.1rem;
 }
