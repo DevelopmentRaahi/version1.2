@@ -77,6 +77,12 @@ nav {
     border-radius: 10px;
 
 }
+.call_link i{
+  font-size: 1.3rem;
+}
+.call_link a{
+ text-decoration: none;
+}
 
 .image-center {
     display: flex;
